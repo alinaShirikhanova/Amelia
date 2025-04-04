@@ -25,7 +25,6 @@
 #     print(a)
 
 
-
 # Списки
 # 4 5 5 5
 # m1 = 4
@@ -39,8 +38,8 @@
 # amelia = ['14.09.2011', 'Азимова Амелия Андреевна', 'amelikws', 'амелькинкс', True, 13]
 # marks2 = []
 # lst = list() # пустой список
-# letters = list('amelia')
-# numbers = list(range(1, 10))
+letters = list('amelia')
+numbers = list(range(1, 10))
 # print(*numbers)
 # print(*letters)
 #
@@ -54,12 +53,34 @@
 #
 
 
+# n = [1, 2, 3]
+# a = []
+# s = list()
+# f = list('amelikws')
+# print(*f)
 
-n = [1, 2, 3]
-a = []
-s = list()
-f = list('amelikws')
-print(*f)
+# line = "Hello"
+# line[2] = 'e'
+# line = "hellodnffnjdfnjf"
+# print(line[0])
+# a = 6
 
 
+# ЗАЧЕМ
+# ЧТО ТАКОЕ СПИСОК
 
+# lst = [1, 2, 3]
+# # lst = [1,2,3,4,5]
+# lst[0] = 1000
+# print(lst)
+# Создать строку и попытаться изменить конкретный символ
+# Попытаться присвоить в переменную со строкой другую строку
+# То же самое сделать со списком
+# a = "World"
+# a[3] = "a"
+# a = "Sun"
+# print(a)
+# a = [1, 2]
+# a[1] = 1000
+# a = [1, 2, 3]
+# print(a)
